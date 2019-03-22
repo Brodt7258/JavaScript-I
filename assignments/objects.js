@@ -63,7 +63,7 @@ const intern5 = {
 
 // ==== Challenge 2: Reading Object Data ==== 
 // Once your objects are created, log out the following requests from HR into the console:
-
+console.group('Objects');
 // Mitzi's name
 console.log(intern1.name);
 // Kennan's ID
@@ -107,3 +107,5 @@ const parent = {}
 // Have the child speak
 
 // Have the grandchild speak
+
+console.groupEnd();
